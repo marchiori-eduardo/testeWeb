@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 28/08/2025</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1>CSS e tags</h1>
+    <h2>Tabelas</h2>
+    <table>
+        <tr>
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+        </tr>
+        <tr>
+            <td>Dado 1.1</td>
+            <td>Dado 1.2</td>
+        </tr>
+        <tr>
+            <td>Dado 2.1</td>
+            <td>Dado 2.2</td>
+        </tr>
+
+    </table>
+    <p>Exemplo de tabela com cabeçalho (thead), corpo (tbody) e rodapé (tfoot):</p>
+
+    <table>
+        <thead>
+            <th>Aluno</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Média</th>
+        </thead>
+        <tbody>
+            <td>Nome</td>
+            <td>8,0</td>
+            <td>8,5</td>
+            <td>8,25</td>
+        </tbody>
+        <tfoot>
+            <th>Tabela de notas dos alunos</th>
+        </tfoot>
+
+    </table>
+
+    <p>Tabela com células mescladas (Colspan e rowspan):</p>
+
+    <table>
+        <tr> <!-- Table row (linha)    -->
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+        </tr>
+        <tr> <!--mesclagem vertical -->
+            <td rowspan="3">Dado 1</td> 
+            <td>Dado 2</td>
+        </tr>
+        <tr>
+            <td>Dado 3</td>
+        </tr>
+        <tr>
+            <td>Dado 4</td>
+        </tr>
+
+    </table>
+
+    <table>
+        <tr>
+            <th>Coluna 1</th>
+            <th>Coluna 2</th>
+        </tr>
+        <tr>
+            <td colspan="2">Dado 1</td>
+            <td >Dado 2</td>
+        </tr>
+        <tr>
+            <td>Dado 3</td>
+            <td>Dado 4</td>
+        </tr>
+    </table>
+</body>
+</html>
