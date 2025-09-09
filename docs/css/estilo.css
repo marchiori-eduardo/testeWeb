@@ -1,33 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-}
-
-.item-menu {
-    padding: 0.1rem;
-    margin:  0.7rem 0rem 0.7rem 0;
-    list-style: none;
-}
-
-.item-menu > a {
-    text-decoration:none;
-    color: #272222;
-}
-
-.item-menu > a:hover {
-    color: white;
-    text-decoration: underline;
-    transition: 1s;
-    
-}
-
-.item-menu:hover {
-    background-color: #163753bd;
-    
-}
-
-.nome {
-    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -36,6 +10,10 @@ header {
     padding-bottom: 20px;
 }
 
+header > h1 {
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.404);
+    padding-bottom: 20px;
+}
 
 main {
     background-color: #ffff;
@@ -60,6 +38,55 @@ main {
     
 }
 
+.cabecalho {
+    color: #ffff;
+}
+header > h2 {
+    font-size: larger;
+}
+
+.item-menu {
+    padding: 0.1rem;
+    margin:  0.7rem 0rem 0.7rem 0;
+    list-style: none;
+    
+}
+
+.item-menu > a {
+    text-decoration:none;
+    color: #272222;
+
+}
+
+.item-menu > a:hover {
+    color: white;
+    text-decoration: underline;
+    transition: 1s;
+    border-radius: 4px;
+    
+}
+
+.item-menu:hover {
+    background-color: #163753bd;
+    transition: 0.7s;
+}
+
+section p {
+    line-height: 1.7em;
+    margin: 13px 0px;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+section h2 {
+    color: #163853;
+    border-style: groove;
+    border-top: #272222;
+    border-left: #272222;
+    border-right: #272222;
+    border-color: #163853;
+}
+
 .conteudo {
     padding: 10px;
     width: 75vw;
@@ -74,4 +101,8 @@ footer {
     text-align: center;
     background-color: #163853;
     
+}
+
+footer > p > span {
+    font-weight: bolder;
 }
