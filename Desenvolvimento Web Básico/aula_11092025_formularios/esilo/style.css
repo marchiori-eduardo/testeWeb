@@ -22,5 +22,8 @@ input {
 }
 
 #date:hover {
-    color: blue;
+    color: white;
+    background-color: rgb(28, 71, 53);
+    transition: 1s; 
+    
 }
